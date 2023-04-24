@@ -1,1 +1,40 @@
-/* your code here */
+footer{
+	background: black;
+	color: white;
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+.logo-details, .top, .media-icons{
+	display: flex;
+	justify-content: flex-start;
+}
+
+.media-icons{
+	justify-content: flex-end;
+}
+
+.box{
+	max-width: 22%;
+}
+.link-boxes{
+	display: flex;
+}
+.bottom-details{
+	background: gray;
+	height: 30px;
+	display: flex;
+}
+.copyright, .policy{
+	width: 40%;
+	margin: 5px;
+	margin-left: 10px;
+}
+.policy{
+	width: 50%;
+	justify-content: flex-end;
+}
+a:link{
+	text-decoration: none;
+	color: white;
+}
